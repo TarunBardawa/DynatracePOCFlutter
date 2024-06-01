@@ -1,0 +1,37 @@
+PODS:
+  - Dynatrace (8.291.1.1004):
+    - Dynatrace/xcframework (= 8.291.1.1004)
+  - Dynatrace/xcframework (8.291.1.1004)
+  - dynatrace_flutter_plugin (3.291.1):
+    - Dynatrace (~> 8.291.1.1004)
+    - Flutter
+  - Flutter (1.0.0)
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - dynatrace_flutter_plugin (from `.symlinks/plugins/dynatrace_flutter_plugin/ios`)
+  - Flutter (from `Flutter`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Dynatrace
+
+EXTERNAL SOURCES:
+  dynatrace_flutter_plugin:
+    :path: ".symlinks/plugins/dynatrace_flutter_plugin/ios"
+  Flutter:
+    :path: Flutter
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Dynatrace: 9c60a9e27fdf449e3ec6bc0872bb6012ae742a81
+  dynatrace_flutter_plugin: 81d3fe86353cb5a00efe38a46a2c36dc1142c80b
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  webview_flutter_wkwebview: 2e2d318f21a5e036e2c3f26171342e95908bd60a
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.15.2
